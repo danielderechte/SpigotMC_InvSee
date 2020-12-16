@@ -1,0 +1,45 @@
+#_____             _____                  _____  _             _
+# |_   _|           / ____|                |  __ \| |           (_)
+#   | |  _ ____   _| (___   ___  ___ ______| |__) | |_   _  __ _ _ _ __
+#   | | | '_ \ \ / /\___ \ / _ \/ _ \______|  ___/| | | | |/ _` | | '_ \
+#  _| |_| | | \ V / ____) |  __/  __/      | |    | | |_| | (_| | | | | |
+# |_____|_| |_|\_/ |_____/ \___|\___|      |_|    |_|\__,_|\__, |_|_| |_|
+#                                                           __/ |
+#                                                          |___/
+#
+# Welcome to my InvSee-Plugin v2.0
+# Developer: DanielDerEchte
+# Support on this Discord: https://discord.gg/x2GZqn9
+
+# Here you can change the prefix for the whole plugin
+Prefix: "&7[&5InvSee&7] "
+
+# Here you can change the message if the player don't have the permissions for the /invsee-Command
+NoPermission: "&cSorry, you don't have the permissions to do that."
+
+# Here you can change the general permission for the /invsee command
+PermissionForCommand: "invsee.use"
+
+# Here you can change the permission if the player shouldn't be able to remove items from the inventory
+PermissionForMoveItems: "invsee.moveitems"
+
+# Here you can change the permission for the /invsee reload command
+PermissionForReload: "invsee.reload"
+
+# Here you can change the message if the command is used incorrectly
+WrongSyntax: "&cPlease use &c/invsee <Player>"
+
+# Here you can change the message when the observed Player isn't on the server. Placeholders: %PLAYER% - Playername
+PlayerNotOnline: "&cThe Player isn't online."
+
+# Here you can change the message that the player (sender) receives when an inventory is opened. Placeholders: %PLAYER% - Playername
+InventoryOpenedMessage: "&7You opened the inventory of &5%PLAYER%"
+
+# Set the value to 'true' if the player who opened the inventory should receive a message. Set to 'false' if not. Placeholders: %PLAYER% - Playername of observer
+TargetMessage: true
+OpenInventoryTargetMessage: "&7The player &5%PLAYER% &7is now watching at your inventory."
+
+
+
+
+

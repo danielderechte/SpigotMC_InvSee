@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InvSeePlugin">
+    <output-path>$USER_HOME$/Desktop/Privates Servernetzwerk/BungeeCord Network/Server-2/plugins</output-path>
+    <root id="archive" name="InvSeePlugin.jar">
+      <element id="module-output" name="SpigotMC - InvSee" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

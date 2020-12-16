@@ -1,0 +1,8 @@
+name: InvSee
+version: 1.0
+author: DanielDerEchte
+main: de.danielderechte.invsee.main.InvSee
+
+commands:
+  invsee:
+    description: Shows the inventory of another player.
